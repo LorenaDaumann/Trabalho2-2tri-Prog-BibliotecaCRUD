@@ -1,0 +1,237 @@
+/*Página de Login*/
+
+#B1{
+    background-image: url("../img/F8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#LogFundo{
+    background-color: rgba(235, 225, 207, 0.644);
+    height: 450px;
+    width: 275px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#BtnEnviar{
+    background-color: rgb(100, 87, 71);
+    border-color: #504844;
+}
+
+/*Página 1*/
+
+
+#B2{
+    background-color: rgb(235, 225, 207);
+}
+
+#MsgP1{
+    justify-self: left;
+    margin-top: 70px;
+    color: #3a3533;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#BtnSair{
+    background-color: rgb(206, 69, 69);
+    border-color: #a33a3a;
+}
+
+#BtnInserir{
+    background-color: rgb(80, 131, 61);
+    border-color: #3e7435;
+}
+
+#BtnLivros{
+    background-color: rgb(61, 91, 131);
+    border-color: #354b74; 
+}
+
+#BtnEmprestimo{
+    background-color: rgb(85, 90, 97);
+    border-color: #494a4d;   
+}
+
+#BtnAlterar{
+    background-color: rgb(85, 90, 97);
+    border-color: #494a4d;  
+}
+
+#BtnDeletar{
+    background-color: rgb(206, 69, 69);
+    border-color: #a33a3a;
+}
+
+#BtnEmprestar{
+    background-color: rgb(80, 131, 61);
+    border-color: #3e7435;
+}
+
+#BtnDevolver{
+    background-color: rgb(73, 119, 73);
+    border-color: #3d5f43;
+}
+
+/*Página Registro*/
+
+#B3{
+    background-color: rgb(235, 225, 207);
+}
+
+#TP{
+    justify-self: left;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #3a3533;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.LR{
+    margin-left: 20px; 
+    margin-top: 10px;
+    color: #3a3533;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#I1{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#I2{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#I3{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+#I4{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#I5{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#BtnCadastrar{
+    background-color: rgb(80, 131, 61);
+    border-color: #3e7435;
+    height:45px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+#BtnVoltar{
+    background-color: rgb(206, 69, 69);
+    border-color: #a33a3a;
+    height:45px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+/*Página Upgrade*/
+
+#B4{
+    background-color: rgb(235, 225, 207);
+}
+
+#TP2{
+    justify-self: left;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #3a3533;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.LR2{
+    margin-left: 20px; 
+    margin-top: 10px;
+    color: #3a3533;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#IU1{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#IU2{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#IU3{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+#IU4{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#IU5{
+    height: 45px;
+    width: 1000px;
+    margin-left: 20px;
+}
+
+#BtnSalvar{
+    background-color: rgb(80, 131, 61);
+    border-color: #3e7435;
+    height:45px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+#BtnVoltar2{
+    background-color: rgb(206, 69, 69);
+    border-color: #a33a3a;
+    height:45px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+    .modal-overlay {
+            position: fixed;
+            inset: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(235, 225, 207);
+            z-index: 1050;
+        }
+
+        .modal-overlay.d-none {
+            display: none;
+        }
+
+        .modal-content {
+            width: 100%;
+            max-width: 520px;
+            background: #f3e6e6;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 0.75rem 2rem rgb(53, 50, 44);
+            background-image: url("../img/branco.jpg");
+        }
