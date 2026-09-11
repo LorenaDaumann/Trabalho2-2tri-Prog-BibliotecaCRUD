@@ -44,3 +44,5 @@
       ) 
 
 - Cole em seu navegador o link: localhost/nomedapasta - Exemplo: localhost/Trabalho2-2tri-Prog-BibliotecaCRUD (sem o Xamp e o banco dará erro)
+
+❗Atenção: Confira na Entity e na Conexaxao se o banco referenciado é Aula, caso não, apenas altere o nome no próprio código PHP
